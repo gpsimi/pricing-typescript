@@ -1,3 +1,4 @@
+import Pricing from "./components/Pricing";
 
 
 
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h1>Hello World</h1>
+      <Pricing />
     </>
   )
 }
