@@ -1,3 +1,8 @@
+body{
+    font-family: 'Clash Display', sans-serif;
+ }
+ 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
