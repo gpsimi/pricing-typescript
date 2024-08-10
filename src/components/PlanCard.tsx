@@ -16,7 +16,7 @@ export default function PlanCard({ name, description, price, features, color, bt
             <div className="mb-5 flex items-end text-6xl font-black">
                 {price ? (
                     <>
-                        <div>${price}</div>
+                        <div>{price}</div>
                     </>
                 ) : (
                     'Free'
@@ -27,7 +27,7 @@ export default function PlanCard({ name, description, price, features, color, bt
                 {features.map((feature) => (
                     <li className="flex items-center">
                         <svg
-                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns="https://www.w3.org/2000/svg"
                             className="mr-3 h-7 w-7"
                             viewBox="0 0 20 20"
                             fill="currentColor"
