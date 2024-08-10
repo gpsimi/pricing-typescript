@@ -16,7 +16,7 @@ export default function PlanCard({ name, description, price, features, color, bt
             <div className="mb-5 flex items-end text-6xl font-black">
                 {price ? (
                     <>
-                        <div>{price}</div>
+                        <div>${price}</div>
                     </>
                 ) : (
                     'Free'
